@@ -1,0 +1,82 @@
+html{
+    height:100%;
+}
+
+body {
+    background:
+            linear-gradient(45deg, hsla(150, 96%, 45%, 1) 0%, hsla(352, 96%, 45%, 0) 70%),
+            linear-gradient(135deg, hsla(250, 95%, 42%, 1) 10%, hsla(253, 95%, 42%, 0) 80%),
+            linear-gradient(225deg, hsla(270, 91%, 45%, 1) 10%, hsla(179, 91%, 45%, 0) 80%),
+            linear-gradient(315deg, hsla(320, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
+    background-size: auto;
+    height:100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height:100%;
+}
+
+.content{
+    height:100%;
+}
+
+
+.bmenu{
+    padding: 50px 0px;
+    margin: 0 auto;
+    position: relative;
+    top:200px;
+    background: rgba(0,0,0,0.7);
+    width: 500px;
+    height: 400px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.bmenu li{
+    font-size: 40px;
+    display: block;
+    line-height: 66px;
+}
+.bmenu li a{
+    white-space: nowrap;
+    color: transparent;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 3px #fff;
+    letter-spacing: 1px;
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.bmenu:hover li a{
+    text-shadow: 0px 0px 10px #fff;
+}
+.bmenu li a:hover{
+    text-shadow: none;
+    color: #fff;
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
